@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>DomConsult</title>
+
+                <link href="fontawesome/css/all.css" rel="stylesheet" type="text/css">
+                <link href="style.css" rel="stylesheet" type="text/css">
+                <link href="css/mdb.css" rel="stylesheet" type="text/css">
+                <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<div class="top-bar">
+	<!--Navbar-->
+<nav class="navbar navbar-light navbar-1 white">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#">DomConsult</a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+    aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+    </ul>
+    <!-- Links -->
+
+  </div>
+  <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
+</div>
+<!--/.Navbar-->
+
+<ul class="nav nav-mtd tabs-info z-depth-1" role="tablist">
+                                <li class="nav-item">
+                    <a id="docs-tab-overview" class="nav-link waves-light active waves-effect waves-light"
+                    data-toggle="tab" href="#docsTabsOverview" role="tab">
+                    <i class="fas fa-book mr-2"></i>Overview</a>
+                </li>
+                                <li class="nav-item">
+                    <a id="docs-tab-gettingstarted" class="nav-link waves-light waves-effect waves-light"
+                    data-toggle="tab" href="#docsTabsAPI" role="tab">
+                    <i class="fas fa-download mr-2"></i>Getting started</a>
+                </li>
+                                    <li class="nav-item">
+                        <a id="docs-tab-examples" class="nav-link waves-light waves-effect waves-light"
+                        href="#"></i>Examples &amp; Customization</a>
+                    </li>
+                            </ul>
+                            <!--Navbar-->
+<nav class="navbar navbar-light light-blue lighten-4">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#">Navbar</a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+        class="fas fa-bars fa-1x"></i></span></button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+    </ul>
+    <!-- Links -->
+
+  </div>
+  <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
+<!--Accordion wrapper-->
+<div class="accordion md-accordion accordion-3 z-depth-1-half" id="accordionEx194" role="tablist"
+aria-multiselectable="true">
+
+<ul class="list-unstyled d-flex justify-content-center pt-5 red-text">
+  <li><i class="fas fa-anchor mr-3 fa-2x" aria-hidden="true"></i></li>
+  <li><i class="far fa-life-ring mr-3 fa-2x" aria-hidden="true"></i></li>
+  <li><i class="far fa-star fa-2x" aria-hidden="true"></i></li>
+</ul>
+
+<h2 class="text-center text-uppercase red-text py-4 px-3">Hello my friends, I am the nicest accordion!</h2>
+
+<hr class="mb-0">
+
+<!-- Accordion card -->
+<div class="card">
+
+  <!-- Card header -->
+  <div class="card-header" role="tab" id="heading4">
+    <a data-toggle="collapse" data-parent="#accordionEx194" href="#collapse4" aria-expanded="true"
+      aria-controls="collapse4">
+      <h3 class="mb-0 red-text">Registration Form <div class="animated-icon1 float-right mt-1"><span></span><span></span><span></span></div>
+      </h3>
+    </a>
+  </div>
+
+  <!-- Card body -->
+  <div id="collapse4" class="collapse show" role="tabpanel" aria-labelledby="heading4" data-parent="#accordionEx194">
+    <div class="card-body pt-0">
+     <form>
+<div>
+	<h3 style="color: Green" >Fill the form</h3>
+</div>
+<div>
+    <label for="sname"> Surname</label>
+    <input type="text" name="sname" placeholder="e.g. Ademola" size="25" id="sname
+    ">
+    <label for="mname">Middle Name</label>
+    <input type="text" name="mname" placeholder="e.g. Ademola" size="25" id="mname">
+    <label for="fname">Firstname</label>
+    <input type="text" name="fname" placeholder="e.g. Emmanuel" size="25" id="fname">
+  <p><span>
+    <label for="addr">Address</label>
+    </span>
+   <textarea placeholder="e.g your add" id="addr" style="width: 1000px; height: 30px"></textarea>
+  </p>
+  <p>
+   <label>State of Origin</label>
+   <select> Choose 
+   <option>Kaduna</option>
+	<option>Abuja</option>   
+	<option>Lagos</option>
+	<option>Osun</option>
+	<option>Imo</option>
+	<option>Delta</option>
+	</select>
+</p>
+<label>Gender</label>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender">Female
+<p>
+<label>Today's Date</label>
+<input type="date" name="date">
+</p>
+<label>Phone No.</label>
+<input type="number" name="phone" maxlength="11">
+  <label>DOB</label>
+  <input type="date" name="date">
+  <label>Age</label>
+  <input type="number" name="age" max="30" min="10">
+  <p>
+  	<label>Week</label>
+  	<input type="week" name="week">
+  	<label>Month</label>
+  	<input type="month" name="month">
+  	<label>Time</label>
+  	<input type="time" name="time">
+  </p>
+  <p>
+  	<label>Range</label>
+  	<input type="range" name="range" max="70" min="10">
+  </p>
+  <p>
+  	<label>Upload</label>
+  	<input type="file" name="upload">
+  </p>
+  <p>
+  	<label>Color</label>
+  	<input type="color" name="color">	
+  </p>
+  <p>
+  <h4>Do u agree?</h4>
+  	<label>I agree</label>
+  	<input type="checkbox" name="checkbox">
+  	<label>I disagree</label>
+  	<input type="checkbox" name="checkbox">
+  </p>
+  <P>
+  	<label>Submit</label>
+  	<input type="submit" name="submit">
+  </P>
+  </div>
+</form>
+    </div>
+  </div>
+</div>
+<!-- Accordion card -->
+
+<!-- Accordion card -->
+<div class="card">
+
+  <!-- Card header -->
+  <div class="card-header" role="tab" id="heading5">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx194" href="#collapse5" aria-expanded="false"
+      aria-controls="collapse5">
+      <h3 class="mb-0 red-text">
+        You're the greatest accordion! <div class="animated-icon1 float-right mt-1"><span></span><span></span><span></span></div>
+      </h3>
+    </a>
+  </div>
+
+  <!-- Card body -->
+  <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionEx194">
+    <div class="card-body pt-0">
+      <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+        wolf moon officia aute,
+        non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
+        3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+        shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+        sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+        accusamus labore sustainable VHS.</p>
+    </div>
+  </div>
+</div>
+<!-- Accordion card -->
+
+<!-- Accordion card -->
+<div class="card">
+
+  <!-- Card header -->
+  <div class="card-header" role="tab" id="heading6">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx194" href="#collapse6" aria-expanded="false"
+      aria-controls="collapse6">
+      <h3 class="mb-0 red-text">
+        Thank you my dear! <div class="animated-icon1 float-right mt-1"><span></span><span></span><span></span></div>
+      </h3>
+    </a>
+  </div>
+
+  <!-- Card body -->
+  <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="heading6" data-parent="#accordionEx194">
+    <div class="card-body pt-0">
+      <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+        wolf moon officia aute,
+        non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
+        3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+        shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+        sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+        accusamus labore sustainable VHS.</p>
+    </div>
+  </div>
+</div>
+<!-- Accordion card -->
+</div>
+<!--/.Accordion wrapper-->
+
+<form>
+<div>
+	<h1 style="color: Green" >Registration Form</h1>
+</div>
+<div>
+    <label for="sname"> Surname</label>
+    <input type="text" name="sname" placeholder="e.g. Ademola" size="25" id="sname
+    ">
+    <label for="mname">Middle Name</label>
+    <input type="text" name="mname" placeholder="e.g. Ademola" size="25" id="mname">
+    <label for="fname">Firstname</label>
+    <input type="text" name="fname" placeholder="e.g. Emmanuel" size="25" id="fname">
+  <p>
+    <label for="addr">Address</label>
+
+   <textarea placeholder="e.g your add" id="addr"></textarea>
+  </p>
+  <p>
+   <label>State of Origin</label>
+   <select> Choose 
+   <option>Kaduna</option>
+	<option>Abuja</option>   
+	<option>Lagos</option>
+	<option>Osun</option>
+	<option>Imo</option>
+	<option>Delta</option>
+	</select>
+</p>
+<label>Gender</label>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender">Female
+<p>
+<label>Today's Date</label>
+<input type="date" name="date">
+</p>
+<label>Phone No.</label>
+<input type="number" name="phone" maxlength="11">
+  <label>DOB</label>
+  <input type="date" name="date">
+  <label>Age</label>
+  <input type="number" name="age" max="30" min="10">
+  <p>
+  	<label>Week</label>
+  	<input type="week" name="week">
+  	<label>Month</label>
+  	<input type="month" name="month">
+  	<label>Time</label>
+  	<input type="time" name="time">
+  </p>
+  <p>
+  	<label>Range</label>
+  	<input type="range" name="range" max="70" min="10">
+  </p>
+  <p>
+  	<label>Upload</label>
+  	<input type="file" name="upload">
+  </p>
+  <p>
+  	<label>Color</label>
+  	<input type="color" name="color">	
+  </p>
+  <p>
+  <h4>Do u agree?</h4>
+  	<label>I agree</label>
+  	<input type="checkbox" name="checkbox">
+  	<label>I disagree</label>
+  	<input type="checkbox" name="checkbox">
+  </p>
+  <P>
+  	<label>Submit</label>
+  	<input type="submit" name="submit">
+  </P>
+  </div>
+</form>
+<form class="was-validated">
+  <div class="mb-3">
+    <label for="validationTextarea">Textarea</label>
+    <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+    <div class="invalid-feedback">
+      Please enter a message in the textarea.
+    </div>
+  </div>
+
+  <div class="custom-control custom-checkbox mb-3">
+    <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+    <label class="custom-control-label" for="customControlValidation1">Check this custom checkbox</label>
+    <div class="invalid-feedback">Example invalid feedback text</div>
+  </div>
+
+  <div class="custom-control custom-radio">
+    <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
+    <label class="custom-control-label" for="customControlValidation2">Toggle this custom radio</label>
+  </div>
+  <div class="custom-control custom-radio mb-3">
+    <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
+    <label class="custom-control-label" for="customControlValidation3">Or toggle this other custom radio</label>
+    <div class="invalid-feedback">More example invalid feedback text</div>
+  </div>
+
+  <div class="form-group">
+    <select class="custom-select" required>
+      <option value="">Open this select menu</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+    <div class="invalid-feedback">Example invalid custom select feedback</div>
+  </div>
+
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+    <div class="invalid-feedback">Example invalid custom file feedback</div>
+  </div>
+</form>
+<a href="#" class="gotop" style="display: inline;"><i class="icon-double-angle-up"></i></a>
+<script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/mdb.js"></script>
+</body>
+</html>
